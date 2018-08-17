@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    opacity: rgb(150,150,150);
+}
+.propic {
+    border: solid;
+    border-width: 3px;
+    border-color: #2c5fa8;
+    border-radius: 100px;
+}
+footer {
+    text-align: center;
+    border-top: solid;
+    border-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    background-image: url("assets/bckgrnd.png");
+    color: #333333;
+}
+section {
+    background-color: #969696;
+    color: #FFFFFF;
+}
+.port {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    margin-right: 110px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 270px;
+    height: 250px;
+}
