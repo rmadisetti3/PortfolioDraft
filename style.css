@@ -1,20 +1,49 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
 }
 
 h2 {
+    font-size: 28px;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+main {
+    background-image: url("assets/bckgrnd.png");
+    color: #333333;
+    z-index: 2;
+}
+.media {
+    padding: 5px;
+    position: relative;
+    top: 225px;
+    left: 60px;
+}
+.origin {
+    margin-left: 50px;
+}
 
+article {
+    padding: 50px;
+    position: relative;
+    top: 150px;
+}
 p {
     font-family: 'Open Sans', sans-serif;
     opacity: rgb(150,150,150);
 }
+
 .propic {
     border: solid;
     border-width: 3px;
     border-color: #2c5fa8;
     border-radius: 100px;
+    position: relative;
+    bottom: 600px;
+    left: 120px;
+    z-index: 1;
+    width: 125px;
+    height: 125px;
 }
 footer {
     text-align: center;
@@ -22,22 +51,104 @@ footer {
     border-color: white;
     font-family: 'Open Sans', sans-serif;
 }
-main {
-    background-image: url("assets/bckgrnd.png");
-    color: #333333;
-}
+
 section {
     background-color: #969696;
     color: #FFFFFF;
+    padding: 30px;
+    position: relative;
 }
 .port {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+    border-bottom: solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .box {
     margin-right: 110px;
     margin-left: 50px;
     padding: 20px;
-    width: 270px;
-    height: 250px;
+    width: 200px;
+    height: 180px;
+    margin-bottom: 90px;
+}
+@media only screen and (min-width:600px) {
+    .media {
+        margin: 5px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        bottom: 100px;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        position: relative;
+        bottom: 125px;
+    }
+    article {
+        padding: 50px;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        opacity: rgb(150,150,150);
+        margin-right: 800px;
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .propic {
+        border: solid;
+        border-width: 3px;
+        border-color: #2c5fa8;
+        border-radius: 100px;
+        position: relative;
+        left: 1050px;
+        bottom: 70px;
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+    }
+    footer {
+        text-align: center;
+        border-top: solid;
+        border-color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+    main {
+        background-image: url("assets/bckgrnd.png");
+        color: #333333;
+        z-index: 2;
+    }
+    section {
+        background-color: #969696;
+        color: #FFFFFF;
+        padding: 30px;
+        position: relative;
+        bottom: 150px;
+    }
+    .port {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        border-bottom: solid;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .box {
+        margin-right: 110px;
+        margin-left: 50px;
+        padding: 20px;
+        width: 200px;
+        height: 180px;
+        margin-bottom: 90px;
+    }
+    
+
 }
