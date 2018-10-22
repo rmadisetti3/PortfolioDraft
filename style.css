@@ -73,15 +73,6 @@ section {
     height: 180px;
     margin-bottom: 90px;
 }
-#googleCalendarCaption {
-    position: relative;
-    left: 84px;
-    bottom: 120px;
-}
-.unusedImgs {
-    position: relative;
-    bottom: 70px;
-}
 @media only screen and (min-width:600px) {
     .media {
         margin: 5px;
@@ -157,9 +148,5 @@ section {
         width: 200px;
         height: 180px;
         margin-bottom: 90px;
-    }
-    #googleCalendarCaption {
-        position: relative;
-        top: 450px;
     }
 }
